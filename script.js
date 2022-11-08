@@ -15,8 +15,7 @@ console.log(colorePreferito);
 
 
 
-console.log {
-
+console.log (
     ` 
     
 
@@ -26,7 +25,7 @@ console.log {
    
 
     `
-};
+);
 
 
 document.getElementById("nome").innerHTML = nome;
