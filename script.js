@@ -20,7 +20,7 @@ console.log (
     
 
     ----- Informazioni di contatto -----
-    Password: $ {nome + cognome + colorepreferito + 21};
+    Password: ${nome + cognome + colorepreferito + 21};
 
    
 
