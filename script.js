@@ -3,7 +3,7 @@
 
 let nome = prompt ("Inserisci il nome");
 let cognome = prompt ("Inserisci il cognome");
-let colore preferito = prompt ("Inserisci il colore preferito");
+let colore,preferito = prompt ("Inserisci il colore preferito");
 
 
 console.log (nome);
@@ -27,3 +27,8 @@ console.log {
 
     `  
 };
+
+
+document.getElementById("nome").innerHTML = nome;
+document.getElementById("cognome").innerHTML = cognome;
+document.getElementById("colore preferito").innerHTML = colore preferito;
